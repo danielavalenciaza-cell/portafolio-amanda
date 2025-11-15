@@ -3,73 +3,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio Amanda</title>
-
-  <!-- Fuente y Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portafolio de Rose Amada Ruiz Sánchez</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #fdf7ff;
+      color: #444;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #f8dffb, #dfe9ff);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 4px solid #e8d7ff;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #b145cf;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #5e5e5e;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #c46ade;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .cert-img {
+      width: 100%;
+      border-radius: 14px;
+      margin-top: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
 </head>
-<body class="min-h-screen bg-pink-50 text-gray-800 p-6">
+<body>
+  <header>
+    <h1>Rose Amada Ruiz Sánchez</h1>
+    <p>Portafolio </p>
+  </header>
 
-  <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 space-y-10">
+  <section>
+    <h2>Perfil Personal</h2>
+    <p>
+      Rose Amada es una joven bondadosa, justa y amable. Tiene un fuerte sentido del
+      compromiso y un espíritu dedicado a ayudar a los demás. Su amor por los animales y
+      por quienes se encuentran en situación vulnerable refleja su empatía y vocación
+      humanitaria.
+    </p>
+  </section>
 
-    <!-- Encabezado -->
-    <header class="text-center space-y-2">
-      <h1 class="text-4xl font-bold text-pink-600">Rose Amada Ruiz Sánchez</h1>
-      <p class="text-lg text-gray-500">Portafolio Personal</p>
-    </header>
+  <section>
+    <h2>Intereses</h2>
+    <ul>
+      <li>Protección y bienestar animal</li>
+      <li>Defensa y apoyo a poblaciones vulnerables</li>
+      <li>Actividades comunitarias y voluntariado</li>
+      <li>Proyectos humanitarios y educativos</li>
+    </ul>
+  </section>
 
-    <!-- Perfil Personal -->
-    <section>
-      <h2 class="text-2xl font-semibold text-pink-500 mb-3">Perfil Personal</h2>
-      <p>
-        Rose Amada es una joven con un carácter profundamente bondadoso, justo y amable.
-        Se destaca por su compromiso, responsabilidad y su amor por las relaciones humanas.
-        Disfruta ayudar a los demás y tiene un cariño especial por los animales y quienes
-        se encuentran en situación de vulnerabilidad.
-      </p>
-    </section>
+  <section>
+    <h2>Certificaciones</h2>
+    <p><strong>English Song Festival – 2025</strong></p>
+    <p>Participación destacada en el English Song Festival del New Cambridge School Cali.</p>
+  </section>
 
-    <!-- Intereses -->
-    <section>
-      <h2 class="text-2xl font-semibold text-pink-500 mb-3">Intereses</h2>
-      <ul class="list-disc ml-6 space-y-1">
-        <li>Protección y bienestar animal</li>
-        <li>Defensa de poblaciones vulnerables</li>
-        <li>Participación en actividades comunitarias</li>
-        <li>Proyectos humanitarios y sociales</li>
-      </ul>
-    </section>
+  <section>
+    <h2>Galería de Certificaciones</h2>
+    <img src="attachment:20251114-1621_page-0001.jpg" alt="Certificado English Song Festival" class="cert-img" />
+  </section>
 
-    <!-- Certificaciones -->
-    <section>
-      <h2 class="text-2xl font-semibold text-pink-500 mb-3">Certificaciones</h2>
-      <div class="bg-pink-100 p-4 rounded-xl shadow-inner">
-        <h3 class="font-semibold text-lg">English Song Festival – 2025</h3>
-        <p>
-          Participación destacada en el English Song Festival del New Cambridge
-          School Cali, realizado el 14 de febrero de 2025.
-        </p>
-      </div>
-    </section>
-
-    <!-- Galería -->
-    <section>
-      <h2 class="text-2xl font-semibold text-pink-500 mb-3">Galería de Certificaciones</h2>
-
-      <!-- IMPORTANTE: Reemplaza el nombre de la imagen con el que tengas en tu repo -->
-      <img
-        src="certificado.jpg"
-        alt="Certificado English Song Festival"
-        class="w-full rounded-xl shadow-lg"
-      />
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center text-gray-500 text-sm pt-6 border-t">
-      © 2025 Portafolio de Rose Amada — Diseñado con cariño.
-    </footer>
-
-  </div>
-
+  <footer>
+    © 2025 Portafolio de Rose Amada – 💖
+  </footer>
 </body>
 </html>
